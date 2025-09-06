@@ -174,7 +174,7 @@ export const navBarConfig: NavBarConfig = {
 					url: "https://space.bilibili.com/1587850254",
 					external: true,
 					icon: "fa6-brands:bilibili",
-				}
+				},
 			],
 		},
 		{
@@ -194,7 +194,7 @@ export const navBarConfig: NavBarConfig = {
 			url: "/content/",
 			icon: "material-symbols:info",
 			children: [LinkPreset.About, LinkPreset.Friends],
-		}
+		},
 	],
 };
 
@@ -409,3 +409,4 @@ export const widgetConfigs = {
 	sakura: sakuraConfig,
 	fullscreenWallpaper: fullscreenWallpaperConfig,
 } as const;
+// 1
