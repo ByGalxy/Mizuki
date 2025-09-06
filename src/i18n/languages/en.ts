@@ -72,7 +72,7 @@ export const en: Translation = {
 
 	// 404页面
 	[Key.notFound]: "404",
-	[Key.notFoundTitle]: "Page Not Found",
+	[Key.notFoundTitle]: "Silly you, the page went astray~",
 	[Key.notFoundDescription]:
 		"Sorry, the page you are looking for doesn't exist or has been moved.",
 	[Key.backToHome]: "Back to Home",

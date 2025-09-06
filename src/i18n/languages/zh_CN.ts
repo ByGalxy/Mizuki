@@ -71,7 +71,7 @@ export const zh_CN: Translation = {
 
 	// 404页面
 	[Key.notFound]: "404",
-	[Key.notFoundTitle]: "页面未找到",
+	[Key.notFoundTitle]: "小笨蛋，页面跑偏啦～",
 	[Key.notFoundDescription]: "抱歉，您访问的页面不存在或已被移动。",
 	[Key.backToHome]: "返回首页",
 
