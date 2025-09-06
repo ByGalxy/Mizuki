@@ -22,17 +22,17 @@ import { getTranslateLanguageFromConfig } from "./utils/language-utils";
 const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 
 export const siteConfig: SiteConfig = {
-	title: "Mizuki",
-	subtitle: "One demo website",
+	title: "ByGalxy Blog",
+	subtitle: "折腾还是折腾",
 
 	lang: SITE_LANG,
 
 	themeColor: {
-		hue: 210, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
-		fixed: false, // 对访问者隐藏主题色选择器
+		hue: 325, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
+		fixed: true, // 对访问者隐藏主题色选择器
 	},
 	translate: {
-		enable: true, // 启用翻译功能
+		enable: false, // 启用翻译功能
 		service: "client.edge", // 使用 Edge 浏览器翻译服务
 		defaultLanguage: getTranslateLanguageFromConfig(SITE_LANG), // 根据站点语言自动设置默认翻译语言
 		showSelectTag: false, // 不显示默认语言选择下拉菜单，使用自定义按钮
@@ -41,7 +41,7 @@ export const siteConfig: SiteConfig = {
 		ignoreTags: ["script", "style", "code", "pre"], // 翻译时忽略的 HTML 标签
 	},
 	banner: {
-		enable: true, // 是否启动Banner壁纸模式
+		enable: false, // 是否启动Banner壁纸模式
 
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
@@ -124,7 +124,7 @@ export const siteConfig: SiteConfig = {
 	],
 };
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
-	enable: true, // 启用全屏壁纸功能,非Banner模式下生效
+	enable: false, // 启用全屏壁纸功能,非Banner模式下生效
 	src: {
 		desktop: [
 			"/assets/desktop-banner/1.webp",
@@ -165,22 +165,16 @@ export const navBarConfig: NavBarConfig = {
 			children: [
 				{
 					name: "GitHub",
-					url: "https://github.com/matsuzaka-yuki/Mizuki",
+					url: "https://github.com/ByGalxy",
 					external: true,
 					icon: "fa6-brands:github",
 				},
 				{
 					name: "Bilibili",
-					url: "https://space.bilibili.com/701864046",
+					url: "https://space.bilibili.com/1587850254",
 					external: true,
 					icon: "fa6-brands:bilibili",
-				},
-				{
-					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
-					external: true,
-					icon: "mdi:git",
-				},
+				}
 			],
 		},
 		{
@@ -188,8 +182,6 @@ export const navBarConfig: NavBarConfig = {
 			url: "/content/",
 			icon: "material-symbols:person",
 			children: [
-				LinkPreset.Anime,
-				LinkPreset.Diary,
 				{
 					name: "相册",
 					url: "/albums/",
@@ -202,51 +194,24 @@ export const navBarConfig: NavBarConfig = {
 			url: "/content/",
 			icon: "material-symbols:info",
 			children: [LinkPreset.About, LinkPreset.Friends],
-		},
-		{
-			name: "其他",
-			url: "#",
-			icon: "material-symbols:more-horiz",
-			children: [
-				{
-					name: "项目展示",
-					url: "/projects/",
-					icon: "material-symbols:work",
-				},
-				{
-					name: "技能展示",
-					url: "/skills/",
-					icon: "material-symbols:psychology",
-				},
-				{
-					name: "时间线",
-					url: "/timeline/",
-					icon: "material-symbols:timeline",
-				},
-			],
-		},
+		}
 	],
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.gif", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
-	name: "Mizuki",
-	bio: "世界很大,一定要去看看",
+	avatar: "assets/images/avatar.png", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	name: "ByGalxy",
+	bio: "Blue Sea Salt Cupcake, go quick and elbow strike them!",
 	links: [
 		{
 			name: "Bilibli",
 			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/701864046",
-		},
-		{
-			name: "Gitee",
-			icon: "mdi:git",
-			url: "https://gitee.com/matsuzakayuki",
+			url: "https://space.bilibili.com/1587850254",
 		},
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/matsuzaka-yuki",
+			url: "https://github.com/ByGalxy",
 		},
 	],
 	// Umami统计部份，记得在layout插入Umami的head标签
@@ -278,7 +243,7 @@ export const commentConfig: CommentConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "公告", // 公告标题
-	content: "欢迎来到我的博客！这是一个示例公告。", // 公告内容
+	content: "欢迎来到我的博客备份站，主站为https://blog.klbbx.cc", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
@@ -289,7 +254,7 @@ export const announcementConfig: AnnouncementConfig = {
 };
 
 export const musicPlayerConfig: MusicPlayerConfig = {
-	enable: true, // 启用音乐播放器功能
+	enable: false, // 启用音乐播放器功能
 };
 
 export const footerConfig: FooterConfig = {
@@ -343,7 +308,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件类型：分类组件
 			type: "categories",
 			// 是否启用该组件
-			enable: true,
+			enable: false,
 			// 组件显示顺序
 			order: 3,
 			// 组件位置："sticky" 表示粘性定位，可滚动

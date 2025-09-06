@@ -1,54 +1,84 @@
-# About This Site
+# 关于&隐私政策
 
-This website is built with the **Astro** framework using the [Mizuki](https://github.com/matsuzaka-yuki/mizuki) theme.
+欢迎来到 **布莫's Notes**，
 
-::github{repo="matsuzaka-yuki/Mizuki"}
+进入本站即视为默认同意以下所有管理规则。
 
-## 🌟 Theme Features
+以下声明中，"本站"均指 **布莫's Notes**，网站地址：https://blog.klbbx.cc
 
-### 🎨 Design & User Experience
-- **Modern & Elegant Design** - Clean, minimalist interface with beautiful typography
-- **Fully Responsive** - Optimized for all devices from mobile to desktop
-- **Dark/Light Mode** - Automatic theme switching with smooth transitions
-- **Beautiful Typography** - Enhanced readability with JetBrains Mono font
-- **Smooth Animations** - Fluid page transitions and interactive elements
+用户在使用本站的过程中需要**遵守**中华人民共和国的法律法规，不得**发布违反法律**法规的评论，包括但不限于：
 
-### 🔍 Content & Search
-- **Advanced Search** - Powered by [Pagefind](https://pagefind.app/) for fast, accurate results
-- **Enhanced Markdown** - Extended syntax with code highlighting and math support
-- **Interactive Table of Contents** - Auto-scroll navigation for long articles
-- **RSS Feed Generation** - Stay updated with automatic feed generation
-- **Reading Time Estimation** - Know how long articles take to read
-- **Post Categorization** - Organize content with tags and categories
+1. 反对宪法确定的基本原则；
+2. 危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一；
+3. 损害国家荣誉和利益；
+4. 煽动民族仇恨、民族歧视，破坏民族团结；
+5. 侮辱、滥用英烈形象，否定英烈事迹，美化侵略战争行为；
+6. 破坏国家宗教政策，宣扬邪教和封建迷信；
+7. 散布谣言，扰乱社会秩序，破坏社会稳定；
+8. 宣扬淫秽、色情、赌博、暴力、凶杀、恐怖或教唆犯罪；
+9. 煽动非法集会、结社、游行、示威、聚众扰乱社会秩序；
+10. 诽谤他人，泄露他人隐私，侵害他人合法权益；
+11. 其他违反法律、行政法规、政策的内容。
 
-### 🌐 Internationalization
-- **Multi-language Support** - Real-time translation capabilities
-- **Auto Language Detection** - Detects user preferences automatically
-- **Client-side Translation** - Powered by Edge Translate technology
-- **10+ Languages Supported** - EN, ZH-CN, ZH-TW, JA, KO, ES, TH, VI, ID, TR
+## 评论声明
 
-### 📱 Special Pages
-- **Anime Tracking Page** - Track your anime watching progress with ratings
-- **Friends Links Page** - Showcase friend websites with beautiful cards
-- **Diary/Moments Page** - Share life moments like social media posts
-- **Archive Page** - Organized timeline view of all posts
-- **About Page** - Customizable personal introduction (this page!)
+1.1 在网站应用中，由用户发表的评论**仅**代表 **本人观点** ，与本站立场 **无关**，用户在使用本站的评论功能时要遵守中华人民共和国的法律法规，禁止发布负面消息，影响网站的学习氛围。
+1.2 网站会使用机器人进行快速的审核评论，评论审核成功后，后续如果发现违反网站的评论规定则删除评论并禁用该账号。
 
-### 🛠 Technical Features
-- **Enhanced Code Blocks** - Powered by [Expressive Code](https://expressive-code.com/)
-- **Math Support** - LaTeX rendering with KaTeX for mathematical expressions
-- **Image Optimization** - PhotoSwipe gallery with lazy loading
-- **SEO Optimized** - Built-in sitemap and meta tags for better search visibility
-- **Performance Optimized** - Fast loading with caching and optimization
-- **Comment System Ready** - Integration support for Twikoo comments
+## 版权声明
 
-### 🎯 Advanced Markdown Features
-- **Callouts & Admonitions** - Beautiful info boxes with `> [!NOTE]`, `> [!TIP]`, `> [!WARNING]`
-- **Mathematical Equations** - Write LaTeX math with `$inline$` and `$$block$$` syntax
-- **GitHub Cards** - Embed repository cards with `::github{repo="user/repo"}`
-- **Syntax Highlighting** - Advanced code highlighting with line numbers
-- **Copy Code Buttons** - Easy code copying functionality
+2.1 本站的文章多为原创内容，未经允许禁止转载本站的任何内容（转载本站文章需要注明出处，包括**布莫's Notes**字样或者完整的文章标题和文章链接）
+2.2 本站资料和数据仅用于学习用途，请在下载后24小时内删除。本站仅提供分享渠道，不承担任何相关连带责任，如您的权益受损，请联系本站，我们将及时处理。
+2.3 本站文章中对某一具体问题的解决方案有可能参阅互联网教程，如引用至本站将会注明原作者及来源链接；
+2.4 本站来源于网络的多媒体素材（ **图片** 、 **音视频** 、**动画**）如侵犯了您的版权，请给我留言或邮件通知。
+2.5 如遇问题或权益受侵害，请联系邮箱 [bygalxy@qq.com](mailto:bygalxy@qq.com)，我们会尽快回复和处理。
 
----
+## 免责声明
 
-*Built with ❤️ using Astro and inspired by modern web design principles.*
+3.1 本站内容仅供参考和学习交流，本站不对内容的准确性、完整性、及时性或有效性做任何保证；
+
+3.2 任何组织和个人不得盗链本站资源或者在非本站所属的服务器上 建立镜像；
+
+3.3 本站只为用户搜索和链接提供**技术帮助**和 **形式审查** ，不对博客网站本身**是否侵权**进行 **实质审查** ；
+
+3.4 本站对文章中所提供的信息或内容的 准确性、 完整性 、 合法性 、 可靠性、可操作性或可用性不承担任何责任 。其他一切因使用本网站而引致之任何意外 、 疏忽 、 合约毁坏 、 诽谤、版权或其他知识产权侵犯及其所造成的损失 ，本网站概不负责 ，亦不承担任何法律责任；
+
+3.5 网站用户之间**通过**本网站 **相识** 、**交往**中所发生或可能发生的 **任何心理** 、**生理**上的**伤害**和**经济**上的 **损失** ，本站**不承担**任何责任；
+
+3.6 任何组织和个人如发现本站对搜索或链接的内容有侵犯他人权利的，敬请**立即通知**我，我将在**第一时间**予以**更改**或 **删除** ；
+
+3.7 转载文章来源均为**其它媒体博客网站**的文章，我会**尽可能**注明出处及链接，但不排除来源不明的情况。转载是处于提供更多信息以**参考使用**或 **学习** 、**交流**之目的，不用于商业用途。转载无意侵犯版权，如转载文章涉及您的权益等问题，请作者**邮件**告知，我将尽快处理。
+
+3.8 在网站应用中，由用户发表的评论仅 **代表用户本人观点** ，与本站 **立场无关** ，本站对网站内的 **立讨论** 、 **传送** 、**聊天**的内容不承担任何责任，但本站**禁止**您传送和发放带有中伤、诽谤、造谣、色情及其他违法或不道德的资料和言论，本站**有权**对此进行**管理**和 **监督** ，但并 **不对此承担任何责任** ；
+
+------
+
+## 我们是谁
+
+我们的站点地址是：[https://blog.klbbx.cc](https://blog.klbbx.cc)。
+
+## 我们收集何种及为何收集个人数据
+
+### 评论
+
+当访客留下评论时，我们会收集评论表单显示的数据，以及访客的IP地址和浏览器的User-Agent字符串，以帮助检查垃圾评论。
+
+您的电子邮箱地址所生成的匿名化字符串（哈希）可能会提供给Gravatar服务确认您是否使用该服务。Gravatar服务的隐私政策：https://automattic.com/privacy/。您的评论获批准后，您的资料图片将在评论旁公开展示。
+
+### 媒体
+
+如果您向本站上传图片，请避免上传含嵌入地理位置信息（EXIF GPS）的图片。访客可下载并提取网站图片中的位置信息。
+
+### Cookies
+
+如果您在本站留下评论，您可以选择用Cookies保存您的名字、电子邮箱地址和网站地址，以便下次评论时无需重新填写。这些Cookies将保留一年。
+
+访问我们的登录页时，我们会设置一个临时的Cookie以确认您的浏览器是否接受Cookies。此Cookie不包含个人数据，关闭浏览器时将被丢弃。
+
+登录时，我们会设置多个Cookies来保存您的登录信息和屏幕显示选项。登录Cookies保留两天，屏幕显示选项Cookies保留一年。如果选择“记住我”，您的登录将保留两周。注销后，登录Cookies将被移除。
+
+编辑或发布文章时，我们会在您的浏览器中保存一个额外的Cookie，此Cookie不包含个人数据，仅记录您刚编辑的文章ID，保留一天。
+
+### 来自其他网站的嵌入内容
+
+本站的文章可能包含嵌入内容（如视频、图片、文章等）。来自其他网站的嵌入内容行为与您直接访问这些网站无异。这些网站可能收集您的数据、使用Cookies、嵌入第三方跟踪程序及监视您与嵌入内容的交互。
