@@ -161,7 +161,6 @@ export const navBarConfig: NavBarConfig = {
 		{
 			name: "链接",
 			url: "/links/",
-			icon: "material-symbols:link",
 			children: [
 				{
 					name: "GitHub",
@@ -180,7 +179,6 @@ export const navBarConfig: NavBarConfig = {
 		{
 			name: "我的",
 			url: "/content/",
-			icon: "material-symbols:person",
 			children: [
 				{
 					name: "相册",
@@ -192,7 +190,6 @@ export const navBarConfig: NavBarConfig = {
 		{
 			name: "关于",
 			url: "/content/",
-			icon: "material-symbols:info",
 			children: [LinkPreset.About, LinkPreset.Friends],
 		},
 	],
