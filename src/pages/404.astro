@@ -1,5 +1,7 @@
 ---
+import { Image } from 'astro:assets';
 import { Icon } from "astro-icon/components";
+import sstp404 from '../assets/images/404.webp';
 import I18nKey from "../i18n/i18nKey";
 import { i18n } from "../i18n/translation";
 import MainGridLayout from "../layouts/MainGridLayout.astro";
@@ -9,7 +11,7 @@ import MainGridLayout from "../layouts/MainGridLayout.astro";
     <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-96">
         <div class="card-base z-10 px-9 py-12 relative w-full flex flex-col items-center justify-center text-center">
             <!-- 404 图片 -->
-            <img src="/src/assets/images/404.webp">
+            <Image src={sstp404} alt="404 Not Found" />
 
             <!-- 标题 -->
             <h1 class="text-3xl md:text-4xl font-bold mb-4 text-90" style="padding-top: 33px;">
