@@ -116,7 +116,7 @@ export const siteConfig: SiteConfig = {
 	},
 	favicon: [
 		{
-			src: "/assets/images/avatar.png"
+			src: "assets/images/avatar.png"
 		}
 		// 留空以使用默认 favicon
 		// {
